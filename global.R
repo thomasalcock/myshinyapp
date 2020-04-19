@@ -9,9 +9,11 @@ library(shinydashboard)
 library(shinydashboardPlus)
 library(dashboardthemes)
 library(DT)
+library(httr)
+library(jsonlite)
 
 # load data ---------------------------------------------------------------
-source("R/dataprep.R")
+source("R/functions.R")
 
 # load custom theme -------------------------------------------------------
 #source("R/custom_theme.R")
