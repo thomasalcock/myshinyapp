@@ -9,13 +9,13 @@ fluidPage(
       numericInput(
         inputId = "min_lot_area",
         label = "Minimum square footage",
-        value = min(house_prices$lot_area)
+        value = 4000
       ),
       br(),
       numericInput(
         inputId = "max_house_price",
         label = "Maximal House Price",
-        value = median(house_prices$sale_price)
+        value = 150000
       )
     ),
     boxPlus(
